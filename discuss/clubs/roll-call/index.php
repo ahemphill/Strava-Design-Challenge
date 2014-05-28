@@ -67,6 +67,22 @@
     
 nav.section-nav ul li:last-child:hover  {border-left: 1px solid #ddd !important;}
 nav.section-nav ul li:last-child:hover a  {color: #333 !important;}
+a[href="clubs"] {position: relative;}
+a[href="clubs"]:after{
+	content: "";
+display: block;
+position: absolute;
+right: 8px;
+top: 50%;
+margin-top: -3px;
+width: 0;
+height: 0;
+border-left: 4px solid transparent;
+border-right: 4px solid transparent;
+border-top: 4px solid #333;
+background-image: url(/assets/sprites/sprites-nav-f3880ef705a71c818e5847e7c2f80d43.png);
+background-size: 163px 54px;
+}
 </style>
 
 <link href="http://d3nn82uaxijpm6.cloudfront.net/assets/favicon-3578624dbca1eda01ff67d8723f17d5e.ico" rel="icon" type="image/x-icon">
@@ -77,7 +93,6 @@ nav.section-nav ul li:last-child:hover a  {color: #333 !important;}
 <!--[if lte IE 9]>
 <link href="http://d3nn82uaxijpm6.cloudfront.net/assets/application-ie-aeee3400cd33aa535edc22bb17531665.css" media="screen" rel="stylesheet" type="text/css" />
 <![endif]-->
-
 <!-- / Add Optimizely initialization code in the `before_optimizely` block. -->
 <script type="text/javascript" async="" src="http://cdn.mxpnl.com/libs/mixpanel-2.2.min.js"></script><script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript">
   //<![CDATA[
@@ -222,7 +237,7 @@ Edit your profile from the Settings page of this menu.
 <a href="../running-gear">Running Gear
 </a></li>
 <li class="selected">
-<a href="" onclick="event.preventDefault();"><div class="tiny premium badge"></div>
+<a href="clubs" onclick="event.preventDefault();"><div class="tiny premium badge"></div>
 Clubs</a></li>
 <li class="" style="float: right; border: none;">
 <a href="http://www.strava.com/settings/discuss" style="float: right; color: #999;">Manage your categories</a></li>

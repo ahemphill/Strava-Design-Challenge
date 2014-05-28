@@ -30,4 +30,4 @@ cd hemphill-strava-demo
 php -S localhost:1337
 ```
 
-2. In your client, navigate to http://localhost:1337
+2. In your client, navigate to http://localhost:1337	

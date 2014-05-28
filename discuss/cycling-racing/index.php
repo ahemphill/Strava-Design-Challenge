@@ -67,6 +67,22 @@
     
 nav.section-nav ul li:last-child:hover  {border-left: 1px solid #ddd !important;}
 nav.section-nav ul li:last-child:hover a  {color: #333 !important;}
+a[href="clubs"] {position: relative;}
+a[href="clubs"]:after{
+	content: "";
+display: block;
+position: absolute;
+right: 8px;
+top: 50%;
+margin-top: -3px;
+width: 0;
+height: 0;
+border-left: 4px solid transparent;
+border-right: 4px solid transparent;
+border-top: 4px solid #333;
+background-image: url(/assets/sprites/sprites-nav-f3880ef705a71c818e5847e7c2f80d43.png);
+background-size: 163px 54px;
+}
 </style>
 
 <link href="http://d3nn82uaxijpm6.cloudfront.net/assets/favicon-3578624dbca1eda01ff67d8723f17d5e.ico" rel="icon" type="image/x-icon">
