@@ -1,6 +1,6 @@
 #Strava Design Challenge
 
-##Prepared by Adam Hemphill for Chris Donahue and team Ñ May 28, 2014
+##Prepared by Adam Hemphill for Chris Donahue and team &mdash; May 28, 2014
 
 ### Brief
 >#### Design Challenge
