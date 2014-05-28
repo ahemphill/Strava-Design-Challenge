@@ -19,8 +19,7 @@
 #### Requirements
 - Git
 - PHP 5.4
-- An internect-connected client which supports sessionStorage, DOMContentLoaded and CSS3
-- Logged in to Strava
+- An internet-connected client which is logged in to Strava and supports sessionStorage, DOMContentLoaded and CSS3
 
 #### Steps
 1. In a shell, run:
