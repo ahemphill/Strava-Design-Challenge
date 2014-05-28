@@ -280,6 +280,7 @@ left: -2px;" scrolling="no"></iframe>
 </div>
 
 </div>
+</div>
 
 <script id="facebook-open-graph-lightbox-template" type="text/template">
 <header>

@@ -560,6 +560,9 @@ Premium
 </div>
 
 </div>
+</div>
+
+</div>
 
 <script id="facebook-open-graph-lightbox-template" type="text/template">
 <header>

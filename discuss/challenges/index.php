@@ -542,6 +542,8 @@ Clubs</a>
 
 </div>
 
+</div>
+
 <script id="facebook-open-graph-lightbox-template" type="text/template">
 <header>
 <h2>Share on Facebook</h2>

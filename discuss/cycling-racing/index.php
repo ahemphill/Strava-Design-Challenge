@@ -559,7 +559,8 @@ Premium
 
 <div class="pagination"><a href="/dashboard?num_entries=20" class="load-feed button" data-count="20">More</a></div>
 
-
+</div>
+</div>
 </div>
 
 </div>
